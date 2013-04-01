@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="7ba30e23-e4f3-4867-a140-cb5ffe2020a5" name="Weston@THIGH-MASTER 2012-10-19 01:19:24" runUser="Thigh-Master\Weston" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5c5780c2-f12c-40a7-a531-d333c42774f3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Weston_THIGH-MASTER 2012-10-19 01_19_24" />
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+        <DataCollectors>
+          <DataCollector uri="datacollector://microsoft/CodeCoverage/1.0" assemblyQualifiedName="Microsoft.VisualStudio.TestTools.CodeCoverage.CoveragePlugIn, Microsoft.VisualStudio.QualityTools.Plugins.CodeCoverage, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" friendlyName="Code Coverage" enabled="false">
+            <Configuration>
+              <CodeCoverage xmlns="">
+                <Regular>
+                  <CodeCoverageItem binaryFile="C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\SpreadsheetGUI\bin\Debug\SpreadsheetGUI.exe" pdbFile="C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\SpreadsheetGUI\bin\Debug\SpreadsheetGUI.instr.pdb" instrumentInPlace="true" />
+                </Regular>
+              </CodeCoverage>
+            </Configuration>
+          </DataCollector>
+        </DataCollectors>
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-19T01:19:24.6049374-06:00" queuing="2012-10-19T01:19:25.5979942-06:00" start="2012-10-19T01:19:25.7940054-06:00" finish="2012-10-19T01:20:39.5662250-06:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="THIGH-MASTER" outcome="Error" timestamp="2012-10-19T01:20:39.5632248-06:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\weston\documents\visual studio 2010\projects\ps6\codeduitest\bin\debug\codeduitest.dll" id="152faad7-080b-7cab-1f47-a8577e18926c">
+      <Execution id="09fc679f-9ba4-4413-84ec-1165c329f778" />
+      <TestMethod codeBase="C:/Users/Weston/Documents/Visual Studio 2010/Projects/PS6/CodedUITest/bin/Debug/CodedUITest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITest.CodedUITest, CodedUITest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="152faad7-080b-7cab-1f47-a8577e18926c" executionId="09fc679f-9ba4-4413-84ec-1165c329f778" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="09fc679f-9ba4-4413-84ec-1165c329f778" testId="152faad7-080b-7cab-1f47-a8577e18926c" testName="CodedUITestMethod1" computerName="THIGH-MASTER" duration="00:01:13.6422121" startTime="2012-10-19T01:19:25.9240129-06:00" endTime="2012-10-19T01:20:39.5662250-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="09fc679f-9ba4-4413-84ec-1165c329f778">
+    </UnitTestResult>
+  </Results>
+</TestRun>

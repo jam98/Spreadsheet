@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="df374668-ee52-4e37-a898-aef3114de258" name="Weston@THIGH-MASTER 2012-10-18 23:45:27" runUser="Thigh-Master\Weston" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5c5780c2-f12c-40a7-a531-d333c42774f3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Weston_THIGH-MASTER 2012-10-18 23_45_27" />
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-18T23:45:27.4705118-06:00" queuing="2012-10-18T23:45:27.6025193-06:00" start="2012-10-18T23:45:27.6505221-06:00" finish="2012-10-18T23:46:38.3955685-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\weston\documents\visual studio 2010\projects\ps6\codeduitest\bin\debug\codeduitest.dll" id="152faad7-080b-7cab-1f47-a8577e18926c">
+      <Execution id="3568adb3-43a3-4606-8870-eb2c4c4b502e" />
+      <TestMethod codeBase="C:/Users/Weston/Documents/Visual Studio 2010/Projects/PS6/CodedUITest/bin/Debug/CodedUITest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITest.CodedUITest, CodedUITest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="152faad7-080b-7cab-1f47-a8577e18926c" executionId="3568adb3-43a3-4606-8870-eb2c4c4b502e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3568adb3-43a3-4606-8870-eb2c4c4b502e" testId="152faad7-080b-7cab-1f47-a8577e18926c" testName="CodedUITestMethod1" computerName="THIGH-MASTER" duration="00:01:10.4392528" startTime="2012-10-18T23:45:27.6595226-06:00" endTime="2012-10-18T23:46:38.3695670-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3568adb3-43a3-4606-8870-eb2c4c4b502e">
+      <Output>
+        <DebugTrace>E, 5496, 14, 2012/10/18, 23:45:28.905, 211784178961, QTAgent32.exe, LoadLibrary() : Unable to find the resource 37382 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+E, 5496, 14, 2012/10/18, 23:45:28.906, 211784181408, QTAgent32.exe, LoadLibrary() : Unable to find the resource 41728 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+E, 5496, 14, 2012/10/18, 23:45:28.906, 211784181726, QTAgent32.exe, LoadLibrary() : Unable to find the resource 8131 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+E, 5496, 14, 2012/10/18, 23:45:28.906, 211784182013, QTAgent32.exe, LoadLibrary() : Unable to find the resource 8131 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+E, 5496, 14, 2012/10/18, 23:45:28.906, 211784182497, QTAgent32.exe, LoadLibrary() : Unable to find the resource 8131 from assembly C:\Windows\system32\en-US\ieframe.dll.mui: Error1814
+E, 5496, 14, 2012/10/18, 23:45:28.906, 211784183112, QTAgent32.exe, LoadLibrary() : Unable to find the resource 803 from assembly C:\Windows\system32\en-US\user32.dll.mui: Error1814
+W, 5496, 14, 2012/10/18, 23:45:29.207, 211784915594, QTAgent32.exe, &lt;a class=success&gt;Playback - {1} [SUCCESS] SetValueAsEditBox "2" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:29.446, 211785497327, QTAgent32.exe, &lt;a class=success&gt;Playback - {2} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:29.795, 211786345639, QTAgent32.exe, &lt;a class=success&gt;Playback - {3} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Client'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:30.352, 211787700409, QTAgent32.exe, &lt;a class=success&gt;Playback - {4} [SUCCESS] SetValueAsEditBox "string yes" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:30.592, 211788285040, QTAgent32.exe, &lt;a class=success&gt;Playback - {5} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:30.828, 211788859645, QTAgent32.exe, &lt;a class=success&gt;Playback - {6} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Client'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:31.262, 211789914616, QTAgent32.exe, &lt;a class=success&gt;Playback - {7} [SUCCESS] SetValueAsEditBox "=3+4" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:31.504, 211790505150, QTAgent32.exe, &lt;a class=success&gt;Playback - {8} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:31.739, 211791077488, QTAgent32.exe, &lt;a class=success&gt;Playback - {9} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Client'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:32.156, 211792090428, QTAgent32.exe, &lt;a class=success&gt;Playback - {10} [SUCCESS] SetValueAsEditBox "=a1" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:32.413, 211792716911, QTAgent32.exe, &lt;a class=success&gt;Playback - {11} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:34.045, 211796687842, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='Help'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:45:34.591, 211798017724, QTAgent32.exe, Playback - [WARNING] Internal warning: 2 UI elements have the same ElementIds.  Use "Instance = 'n'" to avoid this warning for: [MSAA, VisibleOnly]ControlType='MenuBar'
+\0
+W, 5496, 14, 2012/10/18, 23:45:34.626, 211798103689, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2098 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:34.762, 211798433368, QTAgent32.exe, &lt;a class=success&gt;Playback - {12} [SUCCESS] MouseButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='Help'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:35.011, 211799039790, QTAgent32.exe, &lt;a class=success&gt;Playback - {13} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='OK'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:35.115, 211799293081, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:36.134, 211801769086, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA, VisibleOnly]ControlType='MenuBar' | [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:45:36.134, 211801769667, QTAgent32.exe, &lt;a class=failure&gt;Playback - {14} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA, VisibleOnly]ControlType='MenuBar';[MSAA]ControlType='MenuItem' &amp;&amp; Name='File';[MSAA]ControlType='MenuItem' &amp;&amp; Name='New') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:45:36.227, 211801995789, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF44E.png
+\0
+W, 5496, 14, 2012/10/18, 23:45:36.227, 211801996283, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:45:36.227, 211801996826, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 1105 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:36.227, 211801997104, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:36.236, 211802018115, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:36.748, 211803263358, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:45:38.258, 211806939308, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:45:38.258, 211806939728, QTAgent32.exe, &lt;a class=failure&gt;Playback - {15} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA]ControlType='MenuItem' &amp;&amp; Name='File') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:45:38.356, 211807177721, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPFC99.png
+\0
+W, 5496, 14, 2012/10/18, 23:45:38.357, 211807179178, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:45:38.357, 211807179617, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2116 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:39.882, 211810890343, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:45:40.426, 211812215443, QTAgent32.exe, Playback - [WARNING] Internal warning: 2 UI elements have the same ElementIds.  Use "Instance = 'n'" to avoid this warning for: [MSAA, VisibleOnly]ControlType='MenuBar'
+\0
+W, 5496, 14, 2012/10/18, 23:45:40.461, 211812299261, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2097 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:40.599, 211812636459, QTAgent32.exe, &lt;a class=success&gt;Playback - {16} [SUCCESS] LeftButtonClick  &lt; Mouse cursor location (35, 68) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:40.712, 211812911142, QTAgent32.exe, &lt;a class=success&gt;Playback - {17} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (57, 68) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:40.895, 211813356442, QTAgent32.exe, &lt;a class=success&gt;Playback - {18} [SUCCESS] MouseButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='New'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:41.006, 211813627891, QTAgent32.exe, FindNTopWindows : Search will be continued for 12000 even on failure
+W, 5496, 14, 2012/10/18, 23:45:41.067, 211813775433, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:42.086, 211816254127, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA, VisibleOnly]ControlType='MenuBar' | [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:45:42.086, 211816254657, QTAgent32.exe, &lt;a class=failure&gt;Playback - {19} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA, VisibleOnly]ControlType='MenuBar';[MSAA]ControlType='MenuItem' &amp;&amp; Name='File';[MSAA]ControlType='MenuItem' &amp;&amp; Name='Close') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:45:42.188, 211816504476, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF1B88.png
+\0
+W, 5496, 14, 2012/10/18, 23:45:42.189, 211816504920, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:45:42.189, 211816505436, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 1116 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:42.189, 211816505757, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:42.198, 211816528638, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:42.712, 211817777525, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:45:44.222, 211821453547, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:45:44.222, 211821453951, QTAgent32.exe, &lt;a class=failure&gt;Playback - {20} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA]ControlType='MenuItem' &amp;&amp; Name='File') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:45:44.331, 211821717579, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF23E2.png
+\0
+W, 5496, 14, 2012/10/18, 23:45:44.331, 211821717996, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:45:44.331, 211821718482, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2127 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:45.854, 211825424183, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:45:46.397, 211826745854, QTAgent32.exe, Playback - [WARNING] Internal warning: 2 UI elements have the same ElementIds.  Use "Instance = 'n'" to avoid this warning for: [MSAA, VisibleOnly]ControlType='MenuBar'
+\0
+W, 5496, 14, 2012/10/18, 23:45:46.432, 211826831237, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2095 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:46.563, 211827150847, QTAgent32.exe, &lt;a class=success&gt;Playback - {21} [SUCCESS] LeftButtonClick  &lt; Mouse cursor location (60, 93) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:46.677, 211827428025, QTAgent32.exe, &lt;a class=success&gt;Playback - {22} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (82, 93) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:46.869, 211827894939, QTAgent32.exe, &lt;a class=success&gt;Playback - {23} [SUCCESS] MouseButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='Close'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:46.969, 211828138462, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:47.987, 211830615048, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA, VisibleOnly]ControlType='MenuBar' | [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:45:47.987, 211830615597, QTAgent32.exe, &lt;a class=failure&gt;Playback - {24} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA, VisibleOnly]ControlType='MenuBar';[MSAA]ControlType='MenuItem' &amp;&amp; Name='File';[MSAA]ControlType='MenuItem' &amp;&amp; Name='Close') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:45:48.082, 211830846659, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF3293.png
+\0
+W, 5496, 14, 2012/10/18, 23:45:48.082, 211830847109, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:45:48.082, 211830847631, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 1107 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:48.082, 211830847974, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:48.091, 211830869450, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:48.604, 211832116985, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:45:50.114, 211835792436, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:45:50.114, 211835792853, QTAgent32.exe, &lt;a class=failure&gt;Playback - {25} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA]ControlType='MenuItem' &amp;&amp; Name='File') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:45:50.211, 211836028834, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF3AED.png
+\0
+W, 5496, 14, 2012/10/18, 23:45:50.211, 211836029259, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:45:50.212, 211836029746, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2115 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:51.735, 211839736571, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:45:52.276, 211841054720, QTAgent32.exe, Playback - [WARNING] Internal warning: 2 UI elements have the same ElementIds.  Use "Instance = 'n'" to avoid this warning for: [MSAA, VisibleOnly]ControlType='MenuBar'
+\0
+W, 5496, 14, 2012/10/18, 23:45:52.311, 211841138428, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2093 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:52.445, 211841465209, QTAgent32.exe, &lt;a class=success&gt;Playback - {26} [SUCCESS] LeftButtonClick  &lt; Mouse cursor location (35, 68) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:52.559, 211841742130, QTAgent32.exe, &lt;a class=success&gt;Playback - {27} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (57, 68) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:52.746, 211842197519, QTAgent32.exe, &lt;a class=success&gt;Playback - {28} [SUCCESS] MouseButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='Close'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:52.982, 211842772477, QTAgent32.exe, &lt;a class=success&gt;Playback - {29} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='No'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:54.620, 211846754855, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:45:55.163, 211848076650, QTAgent32.exe, Playback - [WARNING] Internal warning: 2 UI elements have the same ElementIds.  Use "Instance = 'n'" to avoid this warning for: [MSAA, VisibleOnly]ControlType='MenuBar'
+\0
+W, 5496, 14, 2012/10/18, 23:45:55.198, 211848161463, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2100 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:55.330, 211848484443, QTAgent32.exe, &lt;a class=success&gt;Playback - {30} [SUCCESS] MouseButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:45:55.436, 211848741687, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:56.452, 211851213335, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA, VisibleOnly]ControlType='MenuBar' | [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:45:56.452, 211851213886, QTAgent32.exe, &lt;a class=failure&gt;Playback - {31} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA, VisibleOnly]ControlType='MenuBar';[MSAA]ControlType='MenuItem' &amp;&amp; Name='File';[MSAA]ControlType='MenuItem' &amp;&amp; Name='Open') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:45:56.538, 211851424461, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF53AC.png
+\0
+W, 5496, 14, 2012/10/18, 23:45:56.539, 211851424889, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:45:56.539, 211851425386, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 1098 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:45:56.539, 211851425707, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:56.547, 211851446054, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:45:57.060, 211852693621, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:45:58.570, 211856369084, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:45:58.570, 211856369506, QTAgent32.exe, &lt;a class=failure&gt;Playback - {32} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA]ControlType='MenuItem' &amp;&amp; Name='File') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:45:58.668, 211856607814, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF5BF6.png
+\0
+W, 5496, 14, 2012/10/18, 23:45:58.668, 211856608232, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:45:58.669, 211856608770, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2116 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:46:00.192, 211860315742, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:46:00.733, 211861633743, QTAgent32.exe, Playback - [WARNING] Internal warning: 2 UI elements have the same ElementIds.  Use "Instance = 'n'" to avoid this warning for: [MSAA, VisibleOnly]ControlType='MenuBar'
+\0
+W, 5496, 14, 2012/10/18, 23:46:00.768, 211861717692, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2093 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:46:00.899, 211862036915, QTAgent32.exe, &lt;a class=success&gt;Playback - {33} [SUCCESS] LeftButtonClick  &lt; Mouse cursor location (35, 68) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:01.012, 211862312027, QTAgent32.exe, &lt;a class=success&gt;Playback - {34} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (57, 68) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:01.194, 211862754098, QTAgent32.exe, &lt;a class=success&gt;Playback - {35} [SUCCESS] MouseButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='Open'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:01.727, 211864051423, QTAgent32.exe, &lt;a class=success&gt;Playback - {36} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Edit' &amp;&amp; Name='Name'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:02.041, 211864814875, QTAgent32.exe, &lt;a class=success&gt;Playback - {37} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='SplitButton' &amp;&amp; Name='Open'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:02.142, 211865061415, QTAgent32.exe, FindNTopWindows : Search will be continued for 12000 even on failure
+W, 5496, 14, 2012/10/18, 23:46:02.419, 211865736807, QTAgent32.exe, &lt;a class=success&gt;Playback - {38} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Client'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:02.527, 211865998049, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:46:03.544, 211868472764, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA, VisibleOnly]ControlType='MenuBar' | [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:46:03.544, 211868473290, QTAgent32.exe, &lt;a class=failure&gt;Playback - {39} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA, VisibleOnly]ControlType='MenuBar';[MSAA]ControlType='MenuItem' &amp;&amp; Name='File';[MSAA]ControlType='MenuItem' &amp;&amp; Name='Save') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:03.694, 211868839830, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF6F68.png
+\0
+W, 5496, 14, 2012/10/18, 23:46:03.695, 211868840243, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:46:03.695, 211868840742, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 1163 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:46:03.695, 211868841067, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:46:03.705, 211868866107, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:46:04.218, 211870114156, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:46:05.728, 211873788726, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:46:05.728, 211873789132, QTAgent32.exe, &lt;a class=failure&gt;Playback - {40} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA]ControlType='MenuItem' &amp;&amp; Name='File') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:05.832, 211874041705, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF77F1.png
+\0
+W, 5496, 14, 2012/10/18, 23:46:05.832, 211874042166, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:46:05.832, 211874042661, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2122 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:46:07.359, 211877757190, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:46:07.904, 211879084407, QTAgent32.exe, Playback - [WARNING] Internal warning: 2 UI elements have the same ElementIds.  Use "Instance = 'n'" to avoid this warning for: [MSAA, VisibleOnly]ControlType='MenuBar'
+\0
+W, 5496, 14, 2012/10/18, 23:46:07.939, 211879168618, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2101 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:46:08.074, 211879497886, QTAgent32.exe, &lt;a class=success&gt;Playback - {41} [SUCCESS] LeftButtonClick  &lt; Mouse cursor location (85, 118) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:08.188, 211879774924, QTAgent32.exe, &lt;a class=success&gt;Playback - {42} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (107, 118) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:08.370, 211880217779, QTAgent32.exe, &lt;a class=success&gt;Playback - {43} [SUCCESS] MouseButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='Save'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:08.604, 211880787053, QTAgent32.exe, &lt;a class=success&gt;Playback - {44} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Client'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:08.828, 211881332343, QTAgent32.exe, &lt;a class=success&gt;Playback - {45} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Client'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:09.226, 211882301684, QTAgent32.exe, &lt;a class=success&gt;Playback - {46} [SUCCESS] SendKeys "^{HOME}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:09.228, 211882306519, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 5496, 14, 2012/10/18, 23:46:09.299, 211882479586, QTAgent32.exe, &lt;a class=success&gt;Playback - {47} [SUCCESS] SendKeys "^+{END}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:09.299, 211882480042, QTAgent32.exe, Msaa.GetFocusedElement: could not find accessible object of foreground window
+W, 5496, 14, 2012/10/18, 23:46:09.323, 211882538471, QTAgent32.exe, &lt;a class=success&gt;Playback - {48} [SUCCESS] SendKeys "{DELETE}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:09.623, 211883266700, QTAgent32.exe, &lt;a class=success&gt;Playback - {49} [SUCCESS] SetValueAsEditBox "1" - "[MSAA, VisibleOnly]ControlType='Edit'"  &lt; Set via SendKeys &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:09.989, 211884158307, QTAgent32.exe, &lt;a class=success&gt;Playback - {50} [SUCCESS] SendKeys "{Enter}" - "[MSAA, VisibleOnly]ControlType='Edit'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:10.095, 211884417480, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:46:11.113, 211886890463, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA, VisibleOnly]ControlType='MenuBar' | [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:46:11.113, 211886891007, QTAgent32.exe, &lt;a class=failure&gt;Playback - {51} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA, VisibleOnly]ControlType='MenuBar';[MSAA]ControlType='MenuItem' &amp;&amp; Name='File';[MSAA]ControlType='MenuItem' &amp;&amp; Name='Close') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:11.226, 211887166134, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF8CF8.png
+\0
+W, 5496, 14, 2012/10/18, 23:46:11.226, 211887166594, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:46:11.226, 211887167103, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 1125 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:46:11.226, 211887167446, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:46:11.236, 211887189974, QTAgent32.exe, FindScreenElementInSinglePass : Attempting to find control in one pass of search. Failures can occur.
+W, 5496, 14, 2012/10/18, 23:46:11.753, 211888448578, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:46:13.263, 211892123320, QTAgent32.exe, Playback - [WARNING] Internal warning:Search failure: [MSAA]ControlType='MenuItem' &amp;&amp; Name='File' | Performed (2) search retries, UI element not found
+\0
+E, 5496, 14, 2012/10/18, 23:46:13.263, 211892123707, QTAgent32.exe, &lt;a class=failure&gt;Playback - {52} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[MSAA]ControlType='MenuItem' &amp;&amp; Name='File') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:13.357, 211892351386, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPF9562.png
+\0
+W, 5496, 14, 2012/10/18, 23:46:13.357, 211892351838, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:46:13.357, 211892352342, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2116 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:46:14.881, 211896060694, QTAgent32.exe, Playback - [WARNING] Internal warning: Target element "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'" was not found, so all intermediate elements were ignored. An incorrect element that matches target element Id can be found as the result.  Verify that all intermediate elements in QueryId have valid and unique Ids
+\0
+W, 5496, 14, 2012/10/18, 23:46:15.423, 211897379884, QTAgent32.exe, Playback - [WARNING] Internal warning: 2 UI elements have the same ElementIds.  Use "Instance = 'n'" to avoid this warning for: [MSAA, VisibleOnly]ControlType='MenuBar'
+\0
+W, 5496, 14, 2012/10/18, 23:46:15.458, 211897464569, QTAgent32.exe, PERF WARNING: FindAllDescendents: took 2095 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:46:15.594, 211897797775, QTAgent32.exe, &lt;a class=success&gt;Playback - {53} [SUCCESS] LeftButtonClick  &lt; Mouse cursor location (85, 118) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:15.707, 211898072280, QTAgent32.exe, &lt;a class=success&gt;Playback - {54} [SUCCESS] LeftButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='File'"  &lt; Mouse cursor location (107, 118) &gt;
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:15.896, 211898531169, QTAgent32.exe, &lt;a class=success&gt;Playback - {55} [SUCCESS] MouseButtonClick - "[MSAA]ControlType='MenuItem' &amp;&amp; Name='Close'"
+\0&lt;/a&gt;
+W, 5496, 14, 2012/10/18, 23:46:16.137, 211899117029, QTAgent32.exe, &lt;a class=success&gt;Playback - {56} [SUCCESS] MouseButtonClick - "[MSAA, VisibleOnly]ControlType='Button' &amp;&amp; Name='No'"
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:16.237, 211899361071, QTAgent32.exe, GetClassName for handle 5768804 failed
+W, 5496, 14, 2012/10/18, 23:46:16.479, 211899949551, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Warning' &amp;&amp; ClassName='#32770'
+\0
+E, 5496, 14, 2012/10/18, 23:46:16.479, 211899949958, QTAgent32.exe, &lt;a class=failure&gt;Playback - {57} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Warning' &amp;&amp; ClassName='#32770') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:16.588, 211900214945, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPFA1F0.png
+\0
+W, 5496, 14, 2012/10/18, 23:46:16.588, 211900215372, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:46:34.661, 211944195989, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Warning' &amp;&amp; ClassName='#32770'
+\0
+E, 5496, 14, 2012/10/18, 23:46:34.661, 211944196390, QTAgent32.exe, &lt;a class=failure&gt;Playback - {58} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Warning' &amp;&amp; ClassName='#32770') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:34.753, 211944420027, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPFE8EF.png
+\0
+W, 5496, 14, 2012/10/18, 23:46:34.753, 211944420504, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:46:34.753, 211944421170, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 18163 ms. Expected it to take maximum 500 ms.
+W, 5496, 14, 2012/10/18, 23:46:35.209, 211945530439, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:35.428, 211946061960, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:35.645, 211946590131, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:35.864, 211947123753, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:36.080, 211947648959, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:36.300, 211948184105, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:36.520, 211948719617, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:36.737, 211949247701, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:36.973, 211949821971, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:37.192, 211950356791, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:37.409, 211950884093, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:37.625, 211951409290, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:37.844, 211951941967, QTAgent32.exe, Playback - [WARNING] Internal warning: Smart Match failed
+\0
+W, 5496, 14, 2012/10/18, 23:46:37.950, 211952201111, QTAgent32.exe, Playback - [WARNING] Internal warning: Window Not Found: [VisibleOnly]ControlType='Window' &amp;&amp; Name='Warning' &amp;&amp; ClassName='#32770'
+\0
+E, 5496, 14, 2012/10/18, 23:46:37.950, 211952201489, QTAgent32.exe, &lt;a class=failure&gt;Playback - {59} [FAILED] Function ElementFetcher::FindScreenElement failed to locate UI element (Searching: ;[VisibleOnly]ControlType='Window' &amp;&amp; Name='Warning' &amp;&amp; ClassName='#32770') (The object specified was not found.)
+\0&lt;/a&gt;
+E, 5496, 14, 2012/10/18, 23:46:38.091, 211952544048, QTAgent32.exe, Playback - [IMAGE] C:\Users\Weston\AppData\Local\Temp\UITestLogs\LastRun\RPFF5CC.png
+\0
+W, 5496, 14, 2012/10/18, 23:46:38.091, 211952544465, QTAgent32.exe, Playback - [WARNING] Internal warning: Couldn't find descendants that match QueryId
+\0
+W, 5496, 14, 2012/10/18, 23:46:38.091, 211952544956, QTAgent32.exe, PERF WARNING: FindTopLevelWindowHelper::FindAllDescendents: took 3337 ms. Expected it to take maximum 500 ms.
+E, 5496, 14, 2012/10/18, 23:46:38.092, 211952547153, QTAgent32.exe, Exception: System.Runtime.InteropServices.COMException
+	Message: Error HRESULT E_FAIL has been returned from a call to a COM component.
+	Stack Trace:    at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+	BaseExceptionMessage: Error HRESULT E_FAIL has been returned from a call to a COM component.
+
+E, 5496, 14, 2012/10/18, 23:46:38.136, 211952653752, QTAgent32.exe, EnsureValid called via EnsureValid call for same element
+E, 5496, 14, 2012/10/18, 23:46:38.136, 211952654492, QTAgent32.exe, GetClassName for handle 122749632 failed
+E, 5496, 14, 2012/10/18, 23:46:38.137, 211952655964, QTAgent32.exe, Window 122749632 not responding. Last Win32 error 1400
+E, 5496, 14, 2012/10/18, 23:46:38.137, 211952656087, QTAgent32.exe, GetClassName for handle 122749632 failed
+E, 5496, 14, 2012/10/18, 23:46:38.139, 211952660458, QTAgent32.exe, Window 5768804 not responding. Last Win32 error 1400
+E, 5496, 14, 2012/10/18, 23:46:38.139, 211952660717, QTAgent32.exe, GetClassName for handle 5768804 failed
+E, 5496, 14, 2012/10/18, 23:46:38.243, 211952913804, QTAgent32.exe, AL: Playback Error: Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotAvailableException: The control is not available or not valid. Additional Details: 
+TechnologyName:  'MSAA'
+ControlType:  'Button'
+ ---&gt; Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotAvailableException: The control is not available or not valid. Additional Details: 
+TechnologyName:  'MSAA'
+ControlType:  'Window'
+ ---&gt; System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindFromPartialQueryId(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid(Boolean waitForReady, Boolean refetch)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid(Boolean waitForReady, Boolean refetch)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindFirstDescendant(String queryId, Int32 maxDepth, Int32&amp; timeLeft)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindFirstDescendant(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid(Boolean waitForReady, Boolean refetch)
+   --- End of inner exception stack trace ---
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid(Boolean waitForReady, Boolean refetch)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Click(MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinates)
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.ClickImplementation(UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate)
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.ClickImplementationWrapper(UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate)
+W, 5496, 14, 2012/10/18, 23:46:38.350, 211953175183, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 5496, 14, 2012/10/18, 23:46:38.351, 211953175486, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method CodedUITest.CodedUITest.CodedUITestMethod1 threw exception: 
+Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotAvailableException: The control is not available or not valid. Additional Details: 
+TechnologyName:  'MSAA'
+ControlType:  'Button'
+ ---&gt; Microsoft.VisualStudio.TestTools.UITest.Extension.UITestControlNotAvailableException: The control is not available or not valid. Additional Details: 
+TechnologyName:  'MSAA'
+ControlType:  'Window'
+ ---&gt; System.Runtime.InteropServices.COMException: Error HRESULT E_FAIL has been returned from a call to a COM component.</Message>
+          <StackTrace>    at Microsoft.VisualStudio.TestTools.UITest.Playback.Engine.IRPFPlayback.FindAllScreenElements(IScreenElement pScreenElementStart, String bstrQueryId, Object&amp; pvarResKeys, Int32 cResKeys, Int32 nMaxDepth, Object[]&amp; foundDescendants)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindTopLevelWindowHelper(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITest.Playback.ScreenElement.FindFromPartialQueryId(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid(Boolean waitForReady, Boolean refetch)
+ --- End of inner exception stack trace ---
+    at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid(Boolean waitForReady, Boolean refetch)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindFirstDescendant(String queryId, Int32 maxDepth, Int32&amp; timeLeft)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.FindFirstDescendant(String queryId)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid(Boolean waitForReady, Boolean refetch)
+ --- End of inner exception stack trace ---
+    at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.EnsureValid(Boolean waitForReady, Boolean refetch)
+   at Microsoft.VisualStudio.TestTools.UITesting.UITestControl.Click(MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinates)
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.ClickImplementation(UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate)
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.ClickImplementationWrapper(UITestControl control, MouseButtons button, ModifierKeys modifierKeys, Point relativeCoordinate)
+   at Microsoft.VisualStudio.TestTools.UITesting.Mouse.Click(UITestControl control, Point relativeCoordinate)
+   at CodedUITest.UIMap.RecordedMethod12() in C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\UIMap.Designer.cs:line 729
+   at CodedUITest.CodedUITest.CodedUITestMethod1() in C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\CodedUITest.cs:line 56
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="THIGH-MASTER\CodedUITestMethod1.png" />
+      </ResultFiles>
+      <ExtensionResult>Exception has been thrown by the target of an invocation.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>

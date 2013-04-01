@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6c943d73-e823-4406-957c-195e05840884" name="Weston@THIGH-MASTER 2012-10-19 01:08:48" runUser="Thigh-Master\Weston" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="5c5780c2-f12c-40a7-a531-d333c42774f3">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="Weston_THIGH-MASTER 2012-10-19 01_08_48" />
+    <Execution>
+      <TestTypeSpecific>
+        <UnitTestRunConfig testTypeId="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b">
+          <AssemblyResolution>
+            <TestDirectory useLoadContext="true" />
+          </AssemblyResolution>
+        </UnitTestRunConfig>
+        <WebTestRunConfiguration testTypeId="4e7599fa-5ecb-43e9-a887-cd63cf72d207">
+          <Browser name="Internet Explorer 7.0">
+            <Headers>
+              <Header name="User-Agent" value="Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)" />
+              <Header name="Accept" value="*/*" />
+              <Header name="Accept-Language" value="{{$IEAcceptLanguage}}" />
+              <Header name="Accept-Encoding" value="GZIP" />
+            </Headers>
+          </Browser>
+        </WebTestRunConfiguration>
+      </TestTypeSpecific>
+      <AgentRule name="LocalMachineDefaultRole">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-10-19T01:08:48.5235556-06:00" queuing="2012-10-19T01:08:48.5965598-06:00" start="2012-10-19T01:08:48.6035602-06:00" finish="2012-10-19T01:08:49.3496029-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="CodedUITestMethod1" storage="c:\users\weston\documents\visual studio 2010\projects\ps6\codeduitest\bin\debug\codeduitest.dll" id="152faad7-080b-7cab-1f47-a8577e18926c">
+      <Execution id="b2330b7c-9813-47a2-9b48-0f06770c3720" />
+      <TestMethod codeBase="C:/Users/Weston/Documents/Visual Studio 2010/Projects/PS6/CodedUITest/bin/Debug/CodedUITest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="CodedUITest.CodedUITest, CodedUITest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="CodedUITestMethod1" />
+      <Extension>Microsoft.VisualStudio.TestTools.UITesting.CodedUITestAttribute, Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</Extension>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="152faad7-080b-7cab-1f47-a8577e18926c" executionId="b2330b7c-9813-47a2-9b48-0f06770c3720" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="b2330b7c-9813-47a2-9b48-0f06770c3720" testId="152faad7-080b-7cab-1f47-a8577e18926c" testName="CodedUITestMethod1" computerName="THIGH-MASTER" duration="00:00:00.4278105" startTime="2012-10-19T01:08:48.6045603-06:00" endTime="2012-10-19T01:08:49.3296017-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b2330b7c-9813-47a2-9b48-0f06770c3720">
+      <Output>
+        <DebugTrace>W, 6988, 118, 2012/10/19, 01:08:49.316, 223952688646, QTAgent32.exe, IEDOM : StopSession of the plugin called before StartSession
+W, 6988, 118, 2012/10/19, 01:08:49.316, 223952690294, QTAgent32.exe, UIA : StopSession of the plugin called before StartSession
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method CodedUITest.CodedUITest.CodedUITestMethod1 threw exception: 
+Microsoft.VisualStudio.TestTools.UITest.Extension.FailedToLaunchApplicationException: "The application cannot be started because it cannot be found in the specified location, or the user does not have sufficient permissions to start the application." File: C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE. Alternative file name: ..\bin\Debug\SpreadsheetGUI.exe</Message>
+          <StackTrace>    at Microsoft.VisualStudio.TestTools.UITesting.ApplicationUnderTest.GetActualFilename()
+   at Microsoft.VisualStudio.TestTools.UITesting.ApplicationUnderTest..ctor(String fileName, String alternateFileName, String arguments)
+   at Microsoft.VisualStudio.TestTools.UITesting.ApplicationUnderTest.Launch(String fileName, String alternateFileName)
+   at CodedUITest.UIMap.EnterADouble() in C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\UIMap.Designer.cs:line 43
+   at CodedUITest.CodedUITest.CodedUITestMethod1() in C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\CodedUITest.cs:line 32
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+      <ResultFiles>
+        <ResultFile path="THIGH-MASTER\CodedUITestMethod1.png" />
+      </ResultFiles>
+      <ExtensionResult>Exception has been thrown by the target of an invocation.</ExtensionResult>
+    </UnitTestResult>
+  </Results>
+</TestRun>

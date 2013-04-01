@@ -1,0 +1,16 @@
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\CodedUITest.dll
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\CodedUITest.pdb
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\obj\Debug\CodedUITest.dll
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\obj\Debug\CodedUITest.pdb
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\SpreadsheetGUI.exe
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\Spreadsheet.dll
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\SpreadsheetPanel.dll
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\Formula.dll
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\SpreadsheetUtilities.dll
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\SpreadsheetGUI.pdb
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\Spreadsheet.pdb
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\Spreadsheet.xml
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\SpreadsheetPanel.xml
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\Formula.xml
+C:\Users\Weston\Documents\Visual Studio 2010\Projects\PS6\CodedUITest\bin\Debug\SpreadsheetUtilities.xml
